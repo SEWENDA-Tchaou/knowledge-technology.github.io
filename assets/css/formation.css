@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* formation-css */
+.card-formation {
+    background-color: #96DCAB;
+}
+.card-img-top {
+    padding: 10px;
+}
+.card-title {
+    color: #0D2058;
+    font-weight: bold;
+    margin-top: 52%;
+}
+.montant {
+    color: #E00B0B;
+}
+
+.card-text {
+    font-weight: bold;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.col-6 {
+    margin: 5% auto;
+}
+.formation-line1, .formation-line2 {
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+/* formation-css-media-query */
+
+@media all and (max-width: 425px) {
+    .formation-line1, .formation-line2 {
+        flex-wrap: wrap;
+    }
+    .card-formation {
+       margin-top: 5%;
+    }
+}
+/* end-formation-css */
+
+/* debouche-css */
+.debouche {
+    background-color: #0D2058;
+    margin-top: 5%;
+}
+
+table{
+    border-collapse: collapse;
+    margin: 7% 10%;
+  }
+  
+  tr {
+  }
+  td{
+    border: 1px solid black;
+    padding: 10px;
+    width: 20%;
+
+  }
+
+  .fisrt-column {
+    width: 30%;
+  }
+
+  .second-column {
+    width: 60%;
+  }
+
+  /* end-debouche-css */
+
+  /*image-etudiant-travaillant */
+.image-etudiant-travaillant {
+    background-image: url("../images/photo_salles_informatique_1.jpeg");
+    background-size: cover;
+    background-size: cover;
+    width: 80%;
+    height: 70vh;
+    margin: 0 auto;
+}
+
+.text-etudiant-travaillant {
+    background-color: #100e0e99;
+    height: 70vh;
+    width: 100%;
+    margin: 0 auto;
+}
+
+  /*end-image-etudiant-travaillant */
