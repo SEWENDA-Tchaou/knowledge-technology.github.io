@@ -144,6 +144,8 @@ ul li a {
     
     background: rgba(78, 194, 111, 0.71);
 } */
+
+/* footer */
 .black-line {
     background-color: black;
     border-radius: 20px;
@@ -205,6 +207,7 @@ ul li a {
     background-color: #4EC26F;
 }
 
+/* end-footer */
 @media all and (max-width: 1440px) {
    
 
@@ -269,9 +272,6 @@ ul li a {
         margin: 20px 0;
     }
 
-    
-
-   
 }
 
 @media all and (max-width: 425px) {
