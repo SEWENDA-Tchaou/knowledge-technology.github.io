@@ -60,6 +60,9 @@ ul li a {
 .imag-invisible {
     visibility: hidden;
 }
+.text {
+    display: none;
+}
 
 /* end-header */
 
@@ -241,6 +244,12 @@ table{
 
 @media all and (max-width: 768px) {
     
+    .imag-invisible {
+        visibility: hidden;
+    }
+    .formation-line1 { 
+        /* margin-top: 70%; */
+    }
     .knowledgetchnology {
         flex-wrap: wrap;
     }

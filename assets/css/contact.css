@@ -58,7 +58,7 @@ ul li a {
 }
 
 .imag-invisible {
-    visibility: hidden;
+    visibility: visible;
 }
 
 /* end-header */
@@ -100,7 +100,9 @@ ul li a {
     .form-control {
         width: 300px;
     }
-
+    .formulaire-contact {
+        margin-top: 61%;
+    }
     .contact p {
         font-size: 15px;
     }

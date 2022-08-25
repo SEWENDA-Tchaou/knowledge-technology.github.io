@@ -238,7 +238,11 @@ ul li a {
 @media all and (max-width: 768px) {
     .imag-invisible {
         visibility: visible;
+
+   
     }
+
+   
     .accueil {
         display: none;
     }
@@ -301,6 +305,9 @@ ul li a {
     .newslet input, .inputmail-buttone{
        
         margin: 20px 70px;
+    }
+    table {
+        margin: 2% 2%;
     }
 }
 
